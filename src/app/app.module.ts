@@ -11,6 +11,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
@@ -24,7 +25,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     EducacionComponent,
     ProyectosComponent,
     BannerComponent,
-    SkillsComponent
+    SkillsComponent,
+    FooterComponent
     
   ],
   imports: [
