@@ -1,0 +1,23 @@
+<div class="experiencia m-3">
+  <h1>EXPERIENCIA TITULO MEJORAR</h1>
+
+  <ul id="experiencia">
+    <li *ngFor="let Exp of Experiencia">
+      <div class="card" style="width: 18rem">
+        <img [src]="Exp.fotourl" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{Exp.puesto}}</h5>
+          <p class="card-text">
+            {{Exp.descripcion}}
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{Exp.inicio}}</li>
+          <li class="list-group-item">{{Exp.fin}}</li>
+          <li class="list-group-item">{{Exp.empresa}}</li>
+        </ul>
+        </div>
+               
+    </li>
+  </ul>
+</div>
